@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    body{
+        background-color: #ebdfdf;
+    }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  /* margin-top: -22px; */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.line1{
+    padding: 1%;
+}
+/* kkkkkkkkkkk */
+.navbar {
+  overflow: hidden;
+  background-color: rgb(19, 2, 8);
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  color:white;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+.navbar a:hover {
+  color:white;
+  text-align: center;
+}
+.links{
+    margin-left:20%;
+}
+.pic{
+  margin-left: 2%;
+}
+.d-flex{
+    margin-top: 1%;
+}
+.slideshow-container{
+    margin-top: 6.8%;
+}
+/* jjjjjj */
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+
+        <img class="pic" src="https://icon2.cleanpng.com/20171221/ceq/coffee-logo-5a3b5ba22c4ca1.2562328315138395221815.jpg" style= "width:4.5%; height:4.5%;border-radius:100%">
+<hr>
+        <div class="links">
+            <a href="#homepage">Home</a>
+            <a href="#boutpage">Customize Coffee</a>
+            <a href="#boutpage">Shop with us</a>
+            <a href="#contactpage">About us</a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+        </div> 
+      </div>
+    <div class="Con">
+        <hr class="line1">  
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="https://kaffeemaschinen-spass.de/wp-content/uploads/2019/04/kaffeemaschine-2.jpg" style="width:100%;height:50%,">
+  <div class="text">Coffee Machines</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">1 / 5</div>
+    <!-- https://miro.medium.com/max/1306/1*5s-8tK63VQ2HvtOLvkLg9g.gif -->
+    <img src="https://www.intowncoffee.com/images/blog/coffee-gear/chemex/chemex-various-sizes-734.jpg" style="width:100%;height:50%,">
+    <div class="text">Make your own coffee</div>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="https://images.theskinny.co.uk/assets/production/000/140/923/140923_widescreen.1.jpg" style="width:100%;height:50%,">
+  <div class="text">Our Team</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="https://www.onhisowntrip.com/wp-content/uploads/2020/08/great-coffee-bean-1290x540.jpeg" style="width:100%;height:50%,">
+  <div class="text">Types of Coffee</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 5</div>
+    <img src="https://jetsettimes.com/wp-content/uploads/2012/10/dsc00184.jpg" style="width:100%">
+    <div class="text">Coffee Culture</div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html> 
